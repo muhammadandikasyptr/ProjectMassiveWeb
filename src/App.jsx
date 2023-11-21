@@ -1,23 +1,28 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Navbar from './pages/navbar';
+import NavigationBar from "./components/NavigationBar";
+import "./style/landingPage.css"
+import LandingPage from "./pages/beranda"
+// import BasicExample from './pages/layananKami';
 
 
 
 const App = () => {
 
   return (
-    <div className='App'> 
-    <header>
-        <Navbar />
-    </header>
-   
+    <div className="myBG border"> 
+      <header className='navbar'>
+          <NavigationBar />
+          <LandingPage />
+        
+
+      </header>
+
+    
     
     
     </div>
-  );
-};
+  )
+}
 
   export default App;
