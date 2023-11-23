@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="Footer">
             <div className="box" style={{display:"flex"}}>
                 <div className="box1">
-                    <img style={{width:"160px", marginLeft:"40px", marginTop:"5px"}} src={logoImage} alt="" />
+                    <img style={{width:"160px", marginLeft:"40px", marginTop:"25px"}} src={logoImage} alt="" />
                     <h5 style={{fontFamily:"sans-serif", fontSize:"15px", marginLeft:"45px", color:"white"}}>Subscribe Sekarang!</h5>
                         <div className="contentBox1" style={{display:"flex"}}>
                             <div className="fontawesome">
@@ -25,9 +25,9 @@ const Footer = () => {
                     <br />
                     <br />
                 </div>
-                <div className="box2" style={{marginLeft:"100px", fontFamily:"sans-serif", color:"white"}}>
-                    <h5 style={{marginTop:"90px"}}><b>informasi</b></h5>
-                    <a style={{textDecoration:"none", color:"white"}} href=""><p style={{marginTop:"28px", fontSize:"13px"}}>Tentang Kami</p></a>
+                <div className="box2" style={{marginLeft:"60px", fontFamily:"sans-serif", color:"white"}}>
+                    <h5 style={{marginTop:"90px"}}><b>Information</b></h5>
+                    <a style={{textDecoration:"none", color:"white"}} href="/TentangKami"><p style={{marginTop:"28px", fontSize:"13px"}}>Tentang Kami</p></a>
                     <a style={{textDecoration:"none", color:"white"}} href=""><p style={{marginTop:"0px", fontSize:"13px"}}>Hubungi Kami</p></a>
                 </div>
                 <div className="box3" style={{marginLeft:"120px", fontFamily:"sans-serif", color:"white"}}>

@@ -28,14 +28,14 @@ const Login = () => {
                 {/* <Form.Label>Password</Form.Label> */}
                 <Form.Control  type="password" placeholder="Masukkan Password Anda" />
             </Form.Group>
-            <p style={{fontFamily:"sans-serif", fontSize:"10px", textAlign:"center", color:"orangered", marginTop:"50px"}}>jangan kosongkan nama dan password anda</p>
+            <p style={{fontFamily:"sans-serif", fontSize:"14px", textAlign:"center", color:"orangered", marginTop:"30px", marginBottom:"30px"}}>Lupa Password?</p>
             {/* <Form.Group className="mb-3" controlId="formBasicCheckbox">
                 <Form.Check type="checkbox" label="Check me out" />
             </Form.Group> */}
-            <a href="#beranda"><Button className="button4" type="submit">
-                    Submit
-                </Button></a>
-            <br />
+            <div style={{display:"flex"}}>
+            <a href=""><Button className="button4" type="submit">Masuk</Button></a>
+            <a href="/Beranda"><Button className="button5" type="on-click">Kembali</Button></a>
+            </div>
             <br />
             <p style={{fontFamily:"sans-serif", fontSize:"12px", textAlign:"center"}}>belum punya akun? <a className="signup" style={{textDecoration:"none"}} href="#">Sign Up</a></p>
             </Form>

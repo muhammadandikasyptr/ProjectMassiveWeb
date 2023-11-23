@@ -7,6 +7,7 @@ import Profit from "../components/kelebihanqw"
 import Kategori from "../components/kategori"
 import Testimoni from "../components/Testimoni"
 import Footer from "../components/footer"
+import "../style/landingPage.css"
 
 const LandingPage = () => {
     return (
@@ -36,12 +37,13 @@ const LandingPage = () => {
         <BasicExample />
         <Profit />
         <Kategori />
+        <br />
         <Testimoni />
         <Footer />
     </div>
     )   
 }
 
-export default LandingPage
+export default LandingPage;
 
     

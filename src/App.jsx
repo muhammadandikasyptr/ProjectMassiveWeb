@@ -11,32 +11,25 @@ import LandingPage from "./pages/beranda"
 // import Footer from './components/Footer';
 import TentangKami from './pages/tentangKami';
 import Login from './pages/login';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 
 
 const App = () => {
 
   return (
-    <div className="myBG border"> 
-      <div>
-        <LandingPage />
-      </div>
-      <br />
-      <div>
-        <Login />
-      </div>
-      <br />
-      <div>
-        <TentangKami />
-      </div>
-          
-  
-  
-
-    
-    
-    
-    </div>
+    <Router>
+      <Routes>
+        <Route path='/' element={<LandingPage/>}/>
+        <Route path='/TentangKami' element={<TentangKami/>}/>
+        <Route path='/Login' element={<Login/>}/>
+        {/* <Route path='/profil' element={<ProfilSiswa/>}/>
+        <Route path='/editsiswa' element={<EditProfilSiswa/>}/>
+        <Route path='/pinjamsiswa' element={<PeminjamanSiswa/>}/>
+        <Route path='/kembalisiswa' element={<Pengembaliansiswa/>}/>
+        <Route path='/detailbuku' element={<Detailbuku/>}/> */}
+      </Routes>
+    </Router>
   )
 }
 
