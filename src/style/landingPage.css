@@ -1,8 +1,135 @@
 .myBG {
-    height: 100vh;
+    height: 50%
 }
 .navbar{
     background: #0081CE;
+}
+.kotak1{
+    background: #0081CE;
+    display: flex;
+}
+.gambar1{
+    margin-left: 110px;
+    margin-top: 0px;
+}
+.button1{
+    background-color: #FEB237;
+}
+.Cards{
+    display: flex;
     
 }
+.card1{
+    display: flex;
+    margin-left: 60px;
+    box-shadow: 2px 2px 2px rgba(104, 104, 104, 0.8);
+}
+.card2{
+    display: flex;
+    margin-left: 40px;
+    box-shadow: 2px 2px 2px rgba(104, 104, 104, 0.8);
+}
+.card3{
+    display: flex;
+    margin-left: 40px;
+    box-shadow: 2px 2px 2px rgba(104, 104, 104, 0.8);
+}
+.card4{
+    display: flex;
+    margin-left: 40px;
+    box-shadow: 2px 2px 2px rgba(104, 104, 104, 0.8);
+}
+.line {
+    size: 30px;
+}
+.content{
+    display: flex;
+}
+.button2{
+    border-radius: 15px;
+    color: #ffffff;
+    background-color: #FE6215;
+    width: 240px;
+    height: 65px;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 20%;
+    margin-top: 10px;
+}
 
+.Cardstest{
+    display: flex;
+}
+.card1test{
+    display: flex;
+    margin-left: 140px;
+    box-shadow: 2px 2px 2px rgba(104, 104, 104, 0.8);
+    margin-top: 50px;
+}
+.card2test{
+    display: flex;
+    margin-left: 110px;
+    box-shadow: 2px 2px 2px rgba(104, 104, 104, 0.8);
+}
+.card3test{
+    display: flex;
+    margin-left: 100px;
+    box-shadow: 2px 2px 2px rgba(104, 104, 104, 0.8);
+    margin-top: 50px;
+}
+
+.Footer{
+    background-color: #0081CE; 
+}
+.button3{
+    background-color: #FE6215;
+    border-radius: 6px;
+    width: 130px;
+    height: 40px;
+    margin-left: 45px;
+}
+
+/* css about */
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-content {
+    flex: 1;
+    padding: 20px;
+    text-align: justify;
+  }
+  
+  .right-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .left-content h1 {
+    margin-bottom: 10px;
+    font-size: 32px;
+  }
+  
+  .left-content p {
+    line-height: 1.5;
+    font-size: 20px;
+  }
+  .login{
+    background-color:#0081CE; 
+    padding: 30px;
+    width: 100%;
+    height: 100vh;
+  }
+  .button4{
+    border-radius: 14px;
+    width: 180px;
+    height:340x;
+    margin-left: 135px;
+
+  }
+  .signup{
+    color: #0081CE;
+    font-family: sans-serif ;
+    font-size: 12px;
+  }
