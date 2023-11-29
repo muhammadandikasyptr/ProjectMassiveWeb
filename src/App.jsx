@@ -1,36 +1,38 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
 import NavigationBar from "./components/NavigationBar";
-import "./style/landingPage.css"
-import LandingPage from "./pages/beranda"
+import "./style/landingPage.css";
+import LandingPage from "./pages/beranda";
 // import BasicExample from './components/layananKami';
 // import kelebihan from './components/kelebihanqw';
 // import Profit from './components/kelebihanqw';
 // import Kategori from './components/kategori';
 // import Testimoni from './components/Testimoni';
 // import Footer from './components/Footer';
-import TentangKami from './pages/tentangKami';
-import Login from './pages/login';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-
-
+import TentangKami from "./pages/tentangKami";
+import Login from "./pages/login";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Hubungikami from "./pages/hubungikami";
+import Blog from "./pages/blog";
 
 const App = () => {
-
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<LandingPage/>}/>
-        <Route path='/TentangKami' element={<TentangKami/>}/>
-        <Route path='/Login' element={<Login/>}/>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/TentangKami" element={<TentangKami />} />
+        <Route path="/Login" element={<Login />} />
+        <Route path="/Hubungikami" element={<Hubungikami />} />
+        <Route path="/Blog" element={<Blog />} />
         {/* <Route path='/profil' element={<ProfilSiswa/>}/>
         <Route path='/editsiswa' element={<EditProfilSiswa/>}/>
         <Route path='/pinjamsiswa' element={<PeminjamanSiswa/>}/>
         <Route path='/kembalisiswa' element={<Pengembaliansiswa/>}/>
         <Route path='/detailbuku' element={<Detailbuku/>}/> */}
       </Routes>
-    </Router>
-  )
-}
+          
+    </Router>
+  );
+};
 
-  export default App;
+export default App;
