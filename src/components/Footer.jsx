@@ -10,25 +10,25 @@ const Footer = () => {
         <div className="Footer">
             <div className="box" style={{display:"flex"}}>
                 <div className="box1">
-                    <img style={{width:"160px", marginLeft:"40px", marginTop:"25px"}} src={logoImage} alt="" />
-                    <h5 style={{fontFamily:"sans-serif", fontSize:"15px", marginLeft:"45px", color:"white"}}>Subscribe Sekarang!</h5>
+                    <img style={{width:"180px", marginLeft:"40px", marginTop:"40px", borderRadius:"50px"}} src={logoImage} alt="" />
+                    {/* <h5 style={{fontFamily:"sans-serif", fontSize:"15px", marginLeft:"45px", color:"white"}}>Subscribe Sekarang!</h5> */}
                         <div className="contentBox1" style={{display:"flex"}}>
                             <div className="fontawesome">
-                                <FontAwesomeIcon style={{marginLeft:"45px"}} icon={faEnvelope}></FontAwesomeIcon>
+                                {/* <FontAwesomeIcon style={{marginLeft:"45px"}} icon={faEnvelope}></FontAwesomeIcon> */}
                             </div>
                             <div className="text">
-                                <h5 style={{fontFamily:"sans-serif",fontSize:"14px", marginTop:"5px", color:"white", marginLeft:"5px"}}>Enter Your Email</h5>
+                                {/* <h5 style={{fontFamily:"sans-serif",fontSize:"14px", marginTop:"5px", color:"white", marginLeft:"5px"}}>Enter Your Email</h5> */}
                             </div>
                         </div>
-                    <hr style={{color:"white", width:"180px", marginLeft:"45px"}} />
-                    <button className="button3">Subscribe</button>
+                    {/* <hr style={{color:"white", width:"180px", marginLeft:"45px"}} />
+                    <button className="button3">Subscribe</button> */}
                     <br />
                     <br />
                 </div>
                 <div className="box2" style={{marginLeft:"60px", fontFamily:"sans-serif", color:"white"}}>
                     <h5 style={{marginTop:"90px"}}><b>Information</b></h5>
                     <a style={{textDecoration:"none", color:"white"}} href="/TentangKami"><p style={{marginTop:"28px", fontSize:"13px"}}>Tentang Kami</p></a>
-                    <a style={{textDecoration:"none", color:"white"}} href=""><p style={{marginTop:"0px", fontSize:"13px"}}>Hubungi Kami</p></a>
+                    <a style={{textDecoration:"none", color:"white"}} href="/hubungikami"><p style={{marginTop:"0px", fontSize:"13px"}}>Hubungi Kami</p></a>
                 </div>
                 <div className="box3" style={{marginLeft:"120px", fontFamily:"sans-serif", color:"white"}}>
                     <h5 style={{marginTop:"90px"}}><b>HelpFull Link</b></h5>
@@ -38,7 +38,7 @@ const Footer = () => {
                 <div className="box4" style={{marginLeft:"120px", fontFamily:"sans-serif", color:"white"}}>
                     <h5 style={{marginTop:"90px"}}><b>Our Service</b></h5>
                     <a style={{textDecoration:"none", color:"white"}} href=""><p style={{marginTop:"28px", fontSize:"13px"}}>Booking</p></a>
-                    <a style={{textDecoration:"none", color:"white"}} href=""><p style={{marginTop:"0px", fontSize:"13px"}}>Blog</p></a>
+                    <a style={{textDecoration:"none", color:"white"}} href="blog"><p style={{marginTop:"0px", fontSize:"13px"}}>Blog</p></a>
                 </div>
                 <div className="box5" style={{marginLeft:"120px", fontFamily:"sans-serif", color:"white"}}>
                     <h5 style={{marginTop:"90px"}}><b>Contact Us</b></h5>

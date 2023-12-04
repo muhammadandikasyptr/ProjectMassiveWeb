@@ -4,6 +4,7 @@ import Form from 'react-bootstrap/Form';
 import  LogoImage2 from "../assets/images/Logo/logo2.png"
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     return (   
@@ -33,8 +34,18 @@ const Login = () => {
                 <Form.Check type="checkbox" label="Check me out" />
             </Form.Group> */}
             <div style={{display:"flex"}}>
-            <a href=""><Button className="button4" type="submit">Masuk</Button></a>
-            <a href="/Beranda"><Button className="button5" type="on-click">Kembali</Button></a>
+            <Link to="/home">
+            <Button style={{backgroundColor:"orangered"}} className="button4" type="submit">
+              Masuk
+            </Button>
+          </Link>
+          <Link to="/">
+            <Button className="button5" type="on-click">
+              Kembali
+            </Button>
+          </Link>
+            {/* <a href=""><Button className="button4" type="submit">Masuk</Button></a>
+            <a href=""><Button className="button5" type="on-click">Kembali</Button></a> */}
             </div>
             <br />
             <p style={{fontFamily:"sans-serif", fontSize:"12px", textAlign:"center"}}>belum punya akun? <a className="signup" style={{textDecoration:"none"}} href="#">Sign Up</a></p>

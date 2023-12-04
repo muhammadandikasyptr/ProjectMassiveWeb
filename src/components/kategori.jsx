@@ -11,13 +11,13 @@ const Kategori = () => {
         <hr style={{width:"100px", marginLeft:"46%", color:"orangered"}} />
         <div className="kategoriImage" style={{display:"flex", marginBottom:"5px"}}>
             <div className="mobilMotor">
-                <img style={{width:"400px", height:"320px", marginLeft:"220px", marginRight:"5px"}} src={mobilImage} alt="" />
-                <img style={{width:"400px", height:"320px", marginLeft:"2px", marginRight:"100px"}} src={motorImage} alt="" />
+                <img style={{width:"300px", height:"220px", marginLeft:"320px", marginRight:"5px"}} src={mobilImage} alt="" />
+                <img style={{width:"300px", height:"220px", marginLeft:"2px", marginRight:"100px"}} src={motorImage} alt="" />
             </div>
         </div>
         <div className="mobil1Motor1"  style={{display:"flex"}} >
-            <img style={{width:"400px", height:"320px", marginLeft:"220px", marginRight:"5px"}} src={mobil1Image} alt="" />
-            <img style={{width:"400px", height:"320px", marginLeft:"2px", marginRight:"100px"}}   src={motor1Image} alt="" />
+            <img style={{width:"300px", height:"220px", marginLeft:"320px", marginRight:"5px"}} src={mobil1Image} alt="" />
+            <img style={{width:"300px", height:"220px", marginLeft:"2px", marginRight:"100px"}}   src={motor1Image} alt="" />
         </div>
 
 

@@ -14,12 +14,15 @@ import Login from "./pages/login";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Hubungikami from "./pages/hubungikami";
 import Blog from "./pages/blog";
+import Home from "./pages/home";
+
 
 const App = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/TentangKami" element={<TentangKami />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/Hubungikami" element={<Hubungikami />} />

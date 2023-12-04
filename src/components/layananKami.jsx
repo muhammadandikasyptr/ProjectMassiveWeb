@@ -7,7 +7,7 @@ import pembayaranImage from '../assets/images/ldp/pembayaran.png'
 
 function BasicExample() {
   return (
-    <div>
+    <div className='layanan'>
     <h4 style={{textAlign:"center",}}>layanan Kami</h4>
    <hr style={{width:"100px", marginLeft:"46%", color:"orangered"}} />
     <br />

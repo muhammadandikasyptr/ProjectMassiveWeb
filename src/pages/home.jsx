@@ -1,19 +1,20 @@
 import {} from "react-bootstrap";
 import quickwashImage from "../assets/images/ldp/quickwash.png";
 import playstoreImage from "../assets/images/ldp/playstore.png";
-import NavigationBar from "../components/NavigationBar";
 import BasicExample from "../components/layananKami";
 import Profit from "../components/kelebihanqw";
 import Kategori from "../components/kategori";
 import Testimoni from "../components/Testimoni";
 import Footer from "../components/footer";
 import "../style/landingPage.css";
+import NavigationBar from "../components/Navbar";
+import Maps from "../components/maps";
 
-const LandingPage = () => {
+const Home = () => {
   return (
-    <div className="beranda" id="beranda">
+    <div className="home" id="home">
       <NavigationBar />
-      <div className="kotak1">
+      <div className="kotak2">
         <div
           style={{
             marginLeft: "100px",
@@ -25,18 +26,13 @@ const LandingPage = () => {
           <br />
           <br />
           <br />
-          <div className="konten1">
           <h1>Quick Wash</h1>
           <h1>Cuci Motor dan Mobil</h1>
-          </div>
-
           <br />
-          <div className="konten2">
           <h4>Temukan pengalaman baru</h4>
           <h4>mencuci kendaraan anda, dan</h4>
           <h4>rasakan perbedaannya</h4>
-          </div>
-          <h6>#QuickWashinAja</h6>
+          <p>#QuickWashinAja</p>
           <br />
           <h6>Dapatkan Aplikasi</h6>
           <img
@@ -58,11 +54,11 @@ const LandingPage = () => {
       <Profit />
       <Kategori />
       <br />
-      <br />
       <Testimoni />
+      <Maps />
       <Footer />
     </div>
   );
 };
 
-export default LandingPage;
+export default Home;

@@ -42,7 +42,7 @@ const Blog = () => {
             penggunaan kendaraan.
           </p>
           <Button variant="warning" type="submit">
-            Read More
+            selengkapnya
           </Button>
         </div>
       </div>
@@ -50,19 +50,18 @@ const Blog = () => {
       <div
         style={{
           display: "flex",
-          justifyContent: "space-between",
           marginTop: "20px",
         }}
       >
-        <div style={{ textAlign: "center", width: "150px" }}>
+        <div style={{ textAlign: "center", width: "150px", marginLeft:"150px" }}>
           <img style={{ height: "150px", width: "auto" }} src={blog2} alt="" />
           <p>Kenapa kendaraan perlu dibersihkan?</p>
         </div>
-        <div style={{ textAlign: "center", width: "150px" }}>
-          <img style={{ height: "150px", width: "auto" }} src={blog3} alt="" />
+        <div style={{ textAlign: "center", width: "150px", marginLeft:"250px", marginRight:"0px" }}>
+          <img style={{ height: "150px", width: "auto"}} src={blog3} alt="" />
           <p>Apa yang menyebabkan kendaraan mudah berkarat</p>
         </div>
-        <div style={{ textAlign: "center", width: "150px" }}>
+        <div style={{ textAlign: "center", width: "150px", marginLeft:"250px" }}>
           <img style={{ height: "150px", width: "auto" }} src={blog4} alt="" />
           <p>Ini alasan kenapa kendaraan anda harus rutin dibersishkan</p>
         </div>
@@ -71,19 +70,18 @@ const Blog = () => {
       <div
         style={{
           display: "flex",
-          justifyContent: "space-between",
           marginTop: "20px",
         }}
       >
-        <div style={{ textAlign: "center", width: "150px" }}>
+        <div style={{ textAlign: "center", width: "150px", marginLeft:"135px" }}>
           <img style={{ height: "150px", width: "auto" }} src={blog5} alt="" />
           <p>Cek mobil keluaran terbaru 2023</p>
         </div>
-        <div style={{ textAlign: "center", width: "150px" }}>
+        <div style={{ textAlign: "center", width: "150px",marginLeft:"250px" }}>
           <img style={{ height: "150px", width: "auto" }} src={blog6} alt="" />
           <p>Ini penyebab kebanyakan orang malas mencuci kendaraan sendiri</p>
         </div>
-        <div style={{ textAlign: "center", width: "150px" }}>
+        <div style={{ textAlign: "center", width: "150px",marginLeft:"250px" }}>
           <img style={{ height: "150px", width: "auto" }} src={blog7} alt="" />
           <p>Lihat perbedaan steam</p>
         </div>
@@ -93,7 +91,7 @@ const Blog = () => {
           Previous Blog
         </Button>
       </div>
-
+        <br />
       <Footer />
     </div>
   );

@@ -2,6 +2,8 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 import logoImage from "../assets/Images/logo/Brand.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserAstronaut } from "@fortawesome/free-solid-svg-icons";
+import Pengaturan from "./dropdown";
+
 const NavigationBar = () => {
   return (
     <div>
@@ -9,7 +11,7 @@ const NavigationBar = () => {
         <Container>
           <Navbar.Brand>
             <img
-              style={{ width: "140px", marginLeft: "70px" }}
+              style={{ width: "100px", marginLeft: "70px" }}
               src={logoImage}
               alt=""
             />
@@ -22,7 +24,7 @@ const NavigationBar = () => {
               marginTop: "5px",
             }}
           >
-            <Nav.Link style={{ marginRight: "30px", color: "white" }} href="/">
+            <Nav.Link style={{ marginRight: "30px", color: "white" }} href="/home">
               Beranda
             </Nav.Link>
             <Nav.Link
@@ -49,30 +51,9 @@ const NavigationBar = () => {
             >
               Hubungi Kami
             </Nav.Link>
-            <FontAwesomeIcon
-              style={{ marginTop: "12px", color: "orangered" }}
-              icon={faUserAstronaut}
-            ></FontAwesomeIcon>
-            <Nav.Link
-              style={{
-                marginRight: "30px",
-                color: "white",
-                marginLeft: "10px",
-              }}
-              href="#"
-            >
-              <b>Account</b>
-            </Nav.Link>
-            <Nav.Link
-              style={{
-                marginRight: "30px",
-                color: "white",
-                marginLeft: "10px",
-              }}
-              href="/"
-            >
-              <b>logout</b>
-            </Nav.Link>
+            <div>
+            <Pengaturan />
+            </div>
           </Nav>
         </Container>
       </Navbar>

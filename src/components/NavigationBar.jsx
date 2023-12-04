@@ -7,7 +7,7 @@ const NavigationBar = () => {
         <Container>
           <Navbar.Brand>
             <img
-              style={{ width: "140px", marginLeft: "70px" }}
+              style={{ width: "180px", marginLeft: "30px", borderRadius:"50px"}}
               src={logoImage}
               alt=""
             />
@@ -20,7 +20,7 @@ const NavigationBar = () => {
               marginTop: "5px",
             }}
           >
-            <Nav.Link style={{ marginRight: "17px", color: "white" }} href="/">
+            {/* <Nav.Link style={{ marginRight: "17px", color: "white" }} href="/">
               Beranda
             </Nav.Link>
             <Nav.Link
@@ -46,9 +46,9 @@ const NavigationBar = () => {
               href="/HubungiKami"
             >
               Hubungi Kami
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link
-              style={{ marginRight: "17px", color: "white" }}
+              style={{ marginRight: "30px", color: "white" }}
               href="/login"
             >
               Masuk
