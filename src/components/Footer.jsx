@@ -37,8 +37,8 @@ const Footer = () => {
                 </div>
                 <div className="box4" style={{marginLeft:"120px", fontFamily:"sans-serif", color:"white"}}>
                     <h5 style={{marginTop:"90px"}}><b>Our Service</b></h5>
-                    <a style={{textDecoration:"none", color:"white"}} href=""><p style={{marginTop:"28px", fontSize:"13px"}}>Booking</p></a>
-                    <a style={{textDecoration:"none", color:"white"}} href="blog"><p style={{marginTop:"0px", fontSize:"13px"}}>Blog</p></a>
+                    <a style={{textDecoration:"none", color:"white"}} href="/pemesanan"><p style={{marginTop:"28px", fontSize:"13px"}}>Booking</p></a>
+                    <a style={{textDecoration:"none", color:"white"}} href="/blog"><p style={{marginTop:"0px", fontSize:"13px"}}>Blog</p></a>
                 </div>
                 <div className="box5" style={{marginLeft:"120px", fontFamily:"sans-serif", color:"white"}}>
                     <h5 style={{marginTop:"90px"}}><b>Contact Us</b></h5>

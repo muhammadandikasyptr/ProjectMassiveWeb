@@ -168,3 +168,16 @@ body{
   .konten2{
     font-family: Arial, Helvetica, sans-serif;
   }
+
+.formBooking{
+    background-color: #f8f7f7;
+    margin-right: 150px;
+    height: 550px;
+    padding: 20px;
+}
+.formBooking2{
+    background-color: #f8f7f7;
+    margin-right: 150px;
+    height: 350px;
+    padding: 20px;
+}

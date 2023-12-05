@@ -15,6 +15,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Hubungikami from "./pages/hubungikami";
 import Blog from "./pages/blog";
 import Home from "./pages/home";
+import Booking from "./pages/pemesanan";
 
 
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
         <Route path="/Login" element={<Login />} />
         <Route path="/Hubungikami" element={<Hubungikami />} />
         <Route path="/Blog" element={<Blog />} />
+        <Route path="/pemesanan" element={<Booking />} />
         {/* <Route path='/profil' element={<ProfilSiswa/>}/>
         <Route path='/editsiswa' element={<EditProfilSiswa/>}/>
         <Route path='/pinjamsiswa' element={<PeminjamanSiswa/>}/>
