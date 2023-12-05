@@ -3,7 +3,7 @@ import quickwashImage2 from '../assets/images/ldp/quickwash2.png'
 import ceklisImage from '../assets/images/ldp/ceklis.png'
 import { Link } from "react-router-dom"
 
-const Profit = () => {
+const Profit2 = () => {
     return(
         <div className='lebih' style={{textAlign:"center"}}>
             <h4>Kelebihan</h4>
@@ -28,11 +28,11 @@ const Profit = () => {
                         <h5 style={{marginTop:"25px", marginLeft:"25px"}}>Kemudahan pembayaran</h5>
                     </div>
                         <br />
-                       <Link to="login"> <button className="button2">Dapatkan layanan kami segera</button></Link>
+                       <Link to="/pemesanan"> <button className="button2">Dapatkan layanan kami segera</button></Link>
             </div>
             </div>
         </div>
     )
 }
 
-export default Profit;
+export default Profit2;

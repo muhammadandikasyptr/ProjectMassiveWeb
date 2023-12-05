@@ -40,8 +40,8 @@ const Booking = () => {
             <Form.Label htmlFor="inputlayanan" style={{marginLeft:"5px", marginRight:"50px"}} >Jenis Layanan</Form.Label>
             <Form.Select style={{width:"300px"}} aria-label="Default select example" id="inputlayanan">
                 <option>pilih jenis layanan</option>
-                <option value="1"></option>
-                <option value="2"></option>
+                <option value="1">Reguler</option>
+                <option value="2">Full Service</option>
                 <option value="3"></option>
             </Form.Select>
             </div>
@@ -82,7 +82,7 @@ const Booking = () => {
                 <div className="kotakFive">
                 <Form.Label htmlFor="inputTanggal" style={{marginLeft:"50px", marginRight:"50px"}} >Pilih Tanggal</Form.Label>
                     <Form.Select style={{width:"300px", marginTop:"2px", marginLeft:"50px"}} aria-label="Default select example" id="inputTanggal">
-                        <option>pilih waktu</option>
+                        <option>pilih Tanggal</option>
                         <option value="1"></option>
                         <option value="2"></option>
                         <option value="3"></option>

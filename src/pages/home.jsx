@@ -2,7 +2,8 @@ import {} from "react-bootstrap";
 import quickwashImage from "../assets/images/ldp/quickwash.png";
 import playstoreImage from "../assets/images/ldp/playstore.png";
 import BasicExample from "../components/layananKami";
-import Profit from "../components/kelebihanqw";
+// import Profit2 from "../components/kelebihanqw";
+import Profit2 from "../components/profit2";
 import Kategori from "../components/kategori";
 import Testimoni from "../components/Testimoni";
 import Footer from "../components/footer";
@@ -51,7 +52,7 @@ const Home = () => {
       </div>
       <br />
       <BasicExample />
-      <Profit />
+      <Profit2 />
       <Kategori />
       <br />
       <Testimoni />
