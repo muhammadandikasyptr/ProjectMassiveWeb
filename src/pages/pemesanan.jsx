@@ -5,6 +5,10 @@ import { faLeftLong } from "@fortawesome/free-solid-svg-icons";
 import "../style/landingPage.css";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import { Link } from "react-router-dom";
+
+
+
 const Booking = () => {
     return (
         <div className="booking">
@@ -127,9 +131,9 @@ const Booking = () => {
                      <h6>Mobil      : Rp. 35.000</h6>
                      <h6>Motor      : Rp. 15.000</h6>
                      <br />
-                     <p style={{textAlign:"center"}}>terimakasih telah mempercayai jasa layanan kami, Mohon Tunggu.. Pesanan Anda akan segera diproses</p>
-                     
-
+                        <div id="alert">
+                            <button className="pesan" style={{width:"150px", borderRadius:"20px", marginLeft:"350px"}} id="pesan" onClick="hide()">Pesan</button>
+                         </div>
                 </div>
              </div>
              <br />
