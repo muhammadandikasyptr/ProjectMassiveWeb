@@ -6,7 +6,7 @@ import BasicExample from "../components/layananKami";
 import Profit from "../components/kelebihanqw";
 import Kategori from "../components/kategori";
 import Testimoni from "../components/Testimoni";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 import "../style/landingPage.css";
 
 const LandingPage = () => {
@@ -26,15 +26,15 @@ const LandingPage = () => {
           <br />
           <br />
           <div className="konten1">
-          <h1>Quick Wash</h1>
-          <h1>Cuci Motor dan Mobil</h1>
+            <h1>Quick Wash</h1>
+            <h1>Cuci Motor dan Mobil</h1>
           </div>
 
           <br />
           <div className="konten2">
-          <h4>Temukan pengalaman baru</h4>
-          <h4>mencuci kendaraan anda, dan</h4>
-          <h4>rasakan perbedaannya</h4>
+            <h4>Temukan pengalaman baru</h4>
+            <h4>mencuci kendaraan anda, dan</h4>
+            <h4>rasakan perbedaannya</h4>
           </div>
           <h6>#QuickWashinAja</h6>
           <br />

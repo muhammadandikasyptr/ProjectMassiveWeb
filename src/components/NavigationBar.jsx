@@ -1,5 +1,8 @@
+import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import logoImage from "../assets/Images/logo/Brand.png";
+
 const NavigationBar = () => {
   return (
     <div>
@@ -7,7 +10,11 @@ const NavigationBar = () => {
         <Container>
           <Navbar.Brand>
             <img
-              style={{ width: "180px", marginLeft: "30px", borderRadius:"50px"}}
+              style={{
+                width: "180px",
+                marginLeft: "30px",
+                borderRadius: "50px",
+              }}
               src={logoImage}
               alt=""
             />
@@ -20,52 +27,27 @@ const NavigationBar = () => {
               marginTop: "5px",
             }}
           >
-            {/* <Nav.Link style={{ marginRight: "17px", color: "white" }} href="/">
-              Beranda
-            </Nav.Link>
-            <Nav.Link
-              style={{ marginRight: "17px", color: "white" }}
-              href="/Pemesanan"
-            >
-              Pemesanan
-            </Nav.Link>
-            <Nav.Link
-              style={{ marginRight: "17px", color: "white" }}
-              href="/Blog"
-            >
-              Blog
-            </Nav.Link>
-            <Nav.Link
-              style={{ marginRight: "17px", color: "white" }}
-              href="/TentangKami"
-            >
-              Tentang Kami
-            </Nav.Link>
-            <Nav.Link
-              style={{ marginRight: "17px", color: "white" }}
-              href="/HubungiKami"
-            >
-              Hubungi Kami
-            </Nav.Link> */}
             <Nav.Link
               style={{ marginRight: "30px", color: "white" }}
-              href="/login"
+              href="/loginawal"
             >
               Masuk
             </Nav.Link>
-            <button
-              className="button1"
-              style={{
-                WebkitBorderRadius: "30px",
-                width: "160px",
-                height: "40px",
-                color: "white",
-                fontSize: "16px",
-                marginRight: "30px",
-              }}
-            >
-              Daftar
-            </button>
+            <Link to="/daftar">
+              <button
+                className="button1"
+                style={{
+                  WebkitBorderRadius: "30px",
+                  width: "160px",
+                  height: "40px",
+                  color: "white",
+                  fontSize: "16px",
+                  marginRight: "30px",
+                }}
+              >
+                Daftar
+              </button>
+            </Link>
           </Nav>
         </Container>
       </Navbar>
